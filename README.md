@@ -71,6 +71,7 @@ ____
 
 ## Майнд-карта
 Данная МК представляет собой набор тестов для тестирования объекта **POST**. Подробная проверка расписана для **Get List** и **Create Post**
+
 Майнд-карту можно [скачать](https://github.com/nataly-frant/DummyApi/blob/main/%D0%9C%D0%B0%D0%B8%CC%86%D0%BD%D0%B4-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_post.png)
 
 ## Тест-кейсы
@@ -80,4 +81,5 @@ ____
 ## Баг-репорты
 
 ## Коллекции POSTMAN
-окружение, автотесты
+
+[Окружение можно скачать](https://github.com/nataly-frant/DummyApi/blob/main/4_Local.postman_environment.json), автотесты: на проверку статус- кода, времени отклика, проверка заполненных типов данных (string, array, number) -  [коллекции можно посмотреть и скачать здесь](https://github.com/nataly-frant/DummyApi/blob/main/4_Post.postman_collection.json)
