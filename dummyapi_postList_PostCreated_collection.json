@@ -1,0 +1,1066 @@
+{
+	"info": {
+		"_postman_id": "9ef55da8-b28a-4b61-b10b-fc44c5ff1439",
+		"name": "dummyapi_post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21373407"
+	},
+	"item": [
+		{
+			"name": "PostList_page:null",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "api",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page:0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=0",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page:lat",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=lat",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "lat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page:1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page:1000",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=1000",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_page:999",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?page=999",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit:4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?limit=4",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit:51",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?limit=51",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "51"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit:lat",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?limit=lat",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "lat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostList_limit:null",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?limit=",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreated:1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?created=1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreated:0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?created=0",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreated:null",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?created=",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreated:2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?created=2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreated:lat",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post?created=lat$",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post"
+					],
+					"query": [
+						{
+							"key": "created",
+							"value": "lat$"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreate",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"{{$randomLoremText}}\",\n    \"image\": \"{{$randomAbstractImage}}\",\n    \"likes\": 1,\n    \"tags\": [\n                \"tags1\",\n                \"tags2\",\n                \"tags3\"\n            ],\n    \"owner\": \"60d0fe4f5311236168a109ca\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post/create",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post_by_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post/62a9e09a5bdf94554d4610c9",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post",
+						"62a9e09a5bdf94554d4610c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post_update",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"новый текст\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post/62a9e09a5bdf94554d4610c9",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post",
+						"62a9e09a5bdf94554d4610c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post_delete",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "app-id",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{app-id}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62a6e81e0e91535f66535dfb",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/{{api-v}}/post/:60d21aeb67d0d8992e610b79",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"{{api-v}}",
+						"post",
+						":60d21aeb67d0d8992e610b79"
+					],
+					"variable": [
+						{
+							"key": "60d21aeb67d0d8992e610b79",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "app-id",
+			"value": "62a6e81e0e91535f66535dfb"
+		}
+	]
+}
