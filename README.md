@@ -82,4 +82,5 @@ ____
 
 ## Коллекции POSTMAN
 
-[Окружение можно скачать](https://github.com/nataly-frant/DummyApi/blob/main/4_Local.postman_environment.json), автотесты: на проверку статус- кода, времени отклика, проверка заполненных типов данных (string, array, number) -  [коллекции можно посмотреть и скачать здесь](https://github.com/nataly-frant/DummyApi/blob/main/4_Post.postman_collection.json)
+[Окружение можно скачать](https://github.com/nataly-frant/DummyApi/blob/main/4_Local.postman_environment.json), автотесты: проверка статус кода и тела ответа., времени отклика, проверка заполненных типов данных (string, array, number) -  [коллекции можно посмотреть и скачать здесь](https://github.com/nataly-frant/DummyApi/blob/main/4_Post.postman_collection.json)
+Tесты для объекта Post ( для Get List и Create Post) [посмотреть и скачать](https://github.com/nataly-frant/DummyApi/blob/main/dummyapi_postList_PostCreated_collection.json)
